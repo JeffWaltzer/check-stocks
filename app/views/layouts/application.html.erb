@@ -26,6 +26,9 @@
     <% elsif alert %>
       <p class="alert alert-danger"><%= alert %></p>
     <% end %>
+      <p>
+      <%= link_to Profile,Profile %>&nbsp;<%=link_to Stock,Stock %>
+      </p>
     <%= yield %>
   </body>
 </html>
