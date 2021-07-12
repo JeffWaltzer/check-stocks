@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateProfilesStocks < ActiveRecord::Migration[6.1]
   def change
     create_table :profiles_stocks do |t|
